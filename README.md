@@ -7,3 +7,4 @@ Exercises for [chapter 9](https://info201.github.io/dataframes.html).
 3. Transform matrix into data frame, find the max values in data frame
 4. input real data, explore, answer questions
 5. girls' names, subsetting, functions to manipulate data frames
+6. Huskies' games 2016, manipulate, extract, filter, create new columns
