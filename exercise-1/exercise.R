@@ -4,9 +4,11 @@
 ## Hint: google "Seahawks scores", or check the football database:
 ## http://www.footballdb.com/teams/nfl/seattle-seahawks/results
 ## here 'Result' displays scores, 'L' stands for loss, 'W' for win
+## 
+## Hint: feel free to invent if you cannot figure this out
 
-## Create a vector of the number of points the Seahawks have allowed to be scored against them in the
-## first 5 games
+## Create a vector of the number of points the Seahawks have allowed to be
+## scored against them in the first 5 games
 
 
 ## Combine your two vectors into a dataframe
