@@ -1,7 +1,7 @@
 # Chapter 9: Data Frames
 Exercises for [chapter 9](https://info201.github.io/dataframes.html).
 
-1. Create a data frame of Seahawks latest results, compute columns
+1. Create a data frame of Seahawks latest results from the web, compute columns
 2. Create and manipulate random data in data frames, answer
    questions about data
 3. Transform matrix into data frame, find the max values in data frame
