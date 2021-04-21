@@ -6,21 +6,25 @@
 ## here 'Result' displays scores, 'L' stands for loss, 'W' for win
 ## 
 ## Hint: feel free to invent if you cannot figure this out
+points_scored <- c(31, 38, 35, 38, 20)
 
 ## Create a vector of the number of points the Seahawks have allowed to be
 ## scored against them in the first 5 games
-
+points_allowed <- c(23, 31, 30, 25, 30)
 
 ## Combine your two vectors into a dataframe
-
+season <- data.frame(points_scored, points_allowed)
+season
 
 ## Create a new column "diff" that is the difference in points
-
+season$diff <- season$points_scored - season$points_allowed
+season
 
 ## Create a new column "won" which is TRUE if the Seahawks won
-
+season$won <- season$points_scored > season$points_allowed
 
 ## Create a vector of the opponents name (such as "Atlanta Falcons")
-
+opponents <- c("Miami", "Dallas", "New England", "Atlanta", "LA")
 
 ## Add the vector of opponents into the data frame
+season$opponents <- opponents
